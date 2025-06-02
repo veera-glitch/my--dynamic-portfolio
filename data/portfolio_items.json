@@ -2,15 +2,15 @@
   {
     "name": "My First HTML Page",
     "description": "A simple static page demonstrating basic HTML structure and elements.",
-    "link": " https://github.com/veera-glitch/Onlyhtml.git"
+    "link": " https://html-culcsc.vercel.app/"
   },
   {
     "name": "CSS Styling Practice",
     "description": "Explored various CSS properties to style text, colors, and layout.",
-    "link": "https://github.com/veera-glitch/whencssisapplied.git"
+    "link": "https://whencssisapplied.vercel.app/"
   },
   {
     "name": "Interactive JavaScript Fun",
     "description": "Implemented basic JavaScript to add dynamic behavior and user interaction.",
-    "link":"https://github.com/veera-glitch/whenjavascriptisapplied.git"}
+    "link":"https://whenjavascriptisapplied.vercel.app/"}
 ]
