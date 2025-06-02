@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dynamiic portfolio V</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="media/profile2.jpg" alt="Eke vera's Photo" id="Myprofileimg" height="240" >
+        <h1>Hello I'm Eke Vera Esther</h1>
+        <p>I'm passionate about alot of things like 
+            web designing ,creating engaging experiences, reading and drawing,<br> 
+            tell me the thing and i'll do my best to get a positive result.
+        </p>
+    </header>
+
+    <main>
+        <section id="about me">
+            <h2>About me!</h2>
+            <p> I enjoy thrilling experiences and learning new technologies and 
+                bringing wild ideas to life through code. My focus presently is 
+                on learning and building complex web pages to make it user friendly 
+                and fun, as well as to learn and induldge in other ways of technology building.
+             </p>
+        </section>
+        <section id="multi-media-showcase">
+            <h2>Multimedia-showcase</h2>
+            <h3>my audio greetings:</h3>
+            <audio controls>
+                <source  src="media/audiogreetings2.opus" type="audio/mpeg">
+            </audio>
+            <h3>A quick project video:</h3>
+            <video controls  width="360" height="240">
+                <source src="media/webvideo.mp4" type="video/mp4">
+            </video>
+        </section>
+        <section id="interactive skills">
+            <h2>My skills</h2>
+            <div class="buttons">
+                <button class="skillb " data-skill="HTML">HTML</button>
+                <button class="skillb " data-skill="CSS">CSS</button>
+             <button class="skillb " data-skill="JavaScript">JavaScript</button>
+            </div>
+<p id="skill-description">Click a skill to learn more!</p>
+        </section>
+        <section id="portfolios-list">
+            <h2>My Projects</h2>
+            <div id="projects-container"></div>
+</section>
+    </main>
+    <footer>
+        <p>&copy; <span id="current-year"></span>
+        Eke Vera Esther.All rights reserved.</p>
+        <button id="themetoggle">Toggle dark-mode</button>
+    </footer>
+
+<script src="script.js"></script> 
+
+</body>
+</html>

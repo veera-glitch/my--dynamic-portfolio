@@ -1,0 +1,16 @@
+[
+  {
+    "name": "My First HTML Page",
+    "description": "A simple static page demonstrating basic HTML structure and elements.",
+    "link": " https://github.com/veera-glitch/Onlyhtml.git"
+  },
+  {
+    "name": "CSS Styling Practice",
+    "description": "Explored various CSS properties to style text, colors, and layout.",
+    "link": "https://github.com/veera-glitch/whencssisapplied.git"
+  },
+  {
+    "name": "Interactive JavaScript Fun",
+    "description": "Implemented basic JavaScript to add dynamic behavior and user interaction.",
+    "link":"https://github.com/veera-glitch/whenjavascriptisapplied.git"}
+]

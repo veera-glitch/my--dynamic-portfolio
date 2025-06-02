@@ -1,0 +1,129 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    background-color: bisque;
+    color: black;
+    line-height: 1.5;
+    padding-bottom: 50px;
+    transition:  background-color 0.3s ease
+    color 0.3s ease;
+    
+} 
+body.dark-mode{
+    background-color: #222;
+    color: ghostwhite;
+}
+header{
+    background-color: rgb(240, 203, 155);
+    color: ghostwhite;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgb(0,0,0,0.3);
+}
+header img{
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-bottom: 10px;
+}
+main{
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+section{
+    background-color: gainsboro;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow:0 2px 5px rgb(0,0,0,0.3);
+    transition: background-color 0.3s ease,box-shadow  0.3s ease;
+}
+body.dark-mode section{
+    background-color: #3f3e3e;
+    box-shadow: 0 2px 5px rgb(0,0,0,0.4);
+}
+h1,h2,h3{
+    color: rgb(92, 53, 3);
+}
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3{
+    color: rgb(226, 164, 77);
+}
+.buttons{
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.skillb{
+    background-color:green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor:pointer;
+    font-size: 1em;
+    transition:  background-color 0.3 ease, transform 0.2 ease;
+    border-radius:5px;
+}
+.skillb:hover{
+    background-color: rgb(51, 143, 51) ;
+    transform: translateY(-2px);
+}
+#skill-description{
+    margin-top: 15px;
+    font-style: italic;
+    min-height: 20px;
+    
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: rgb(253, 144, 1);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 8px rgb(0,0,0,0.3);
+}
+#themetoggle{
+    color: #333;
+    background-color:skyblue ;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition:background-color 0.3 ease;
+}
+#themetoggle:hover{
+    background-color: skyblue;
+}
+.project-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: left;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+body.dark-mode .project-card {
+    background-color: #444;
+    border-color: #555;
+}
+
+.project-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+.project-card h3 {
+    color: rgb(253, 144, 2);
+    margin-top: 0;
+}
+body.dark-mode .project-card h3 {
+        color:rgb(143, 83, 6);}
+
+
